@@ -3,6 +3,42 @@ body{
     font-family: 'Poppins',sans-serif;
 }
 
+@media only screen and (max-width: 768px){
+body{
+    width: 100%;
+}
+#info{
+    width: 100%;
+    background: red;
+    margin: 0;
+    position: relative;
+}
+}
+
 .container{
     background: #ffffff;
+    border: solid 1px #777;
+    padding: 10px;
+}
+
+#pic{
+    margin: 10px;
+}
+
+.card{
+    margin: 0 auto;
+    float: none;
+    margin-bottom: 10px;
+}
+
+#foot{
+    position: fixed;
+    color: #ffffff;
+    background: #343a40;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    padding: 10px;
+    text-align: center;
+    border-top: solid 1px plum;
 }
