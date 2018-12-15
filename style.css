@@ -3,20 +3,23 @@ body{
     font-family: 'Poppins',sans-serif;
 }
 
-@media only screen and (max-width: 768px){
-.container{
-    max-width: 100%;
+@media only screen and (min-width: 768px){
+.container-fluid{
+    max-width: 80% !important;
 }
 }
 
-.container{
+.container-fluid{
+    max-width: 100%;
     background: #ffffff;
     border: solid 1px #777;
     padding: 10px;
 }
 
 #pic{
-    margin: 10px;
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
 }
 
 .card{
